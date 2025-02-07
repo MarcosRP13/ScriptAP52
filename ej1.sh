@@ -4,7 +4,7 @@ pares=0
 impares=0
 
 while read numero; do
-    if (( numero % 2 == 0 )); then
+    if (( $numero % 2 == 0 )); then
         echo "$numero es par"
         ((pares++))
     else
